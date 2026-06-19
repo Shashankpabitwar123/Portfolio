@@ -1,6 +1,28 @@
-# Project 1: Build Your Personal Website with AI!
-In this project, you will leverage AI and your knowledge of HTML and CSS to build a simple, single-page personal website that will showcase your projects.
+# Shashank Pabitwar Portfolio
 
-You will use AI to help you brainstorm design ideas, apply web development best practices, and troubleshoot issues, bringing your vision to life on screen! 
+Single-page portfolio and recruiter link hub for Shashank Pabitwar.
 
-Launch a Codespace to get started. **Remember to Commit and Push** your project changes to GitHub from Codespaces to prevent losing progress.
+## Highlights
+
+- Resume, GitHub, LinkedIn, and PrepInterview AI links in one place
+- Selected resume projects with live demo and repository links
+- Responsive static site built with HTML and CSS
+- Hosted with GitHub Pages
+
+## Featured Projects
+
+- PrepInterview AI
+- PropertyLens
+- DormDash
+- COOK IA
+- Arrow Survival
+
+## Local Preview
+
+Open `index.html` directly in a browser, or run a lightweight local server:
+
+```bash
+python3 -m http.server 8080
+```
+
+Then open `http://localhost:8080`.
