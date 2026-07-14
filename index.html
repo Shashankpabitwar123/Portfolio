@@ -3,217 +3,208 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Shashank Pabitwar - full-stack, AI, and data-driven software portfolio." />
-  <title>Shashank Pabitwar | Software Portfolio</title>
-  <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="Shashank Pabitwar is a full-stack software engineer building AI products, realtime systems, and multiplayer experiences." />
+  <meta name="theme-color" content="#101416" />
+  <meta property="og:title" content="Shashank Pabitwar | Full-Stack Software Engineer" />
+  <meta property="og:description" content="AI products, realtime multiplayer systems, and polished software built end to end." />
+  <meta property="og:image" content="img/shashank-profile-2026.png" />
+  <title>Shashank Pabitwar | Full-Stack Software Engineer</title>
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
+  <script>document.documentElement.classList.add('js');</script>
   <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="page-progress" aria-hidden="true"><span></span></div>
+
   <header class="topbar">
-    <nav class="container nav" aria-label="Primary navigation">
-      <a class="brand" href="#home">SP</a>
+    <nav class="nav shell" aria-label="Primary navigation">
+      <a class="brand" href="#home" aria-label="Shashank Pabitwar, home">
+        <span>SP</span>
+        <small>Software engineer</small>
+      </a>
       <div class="nav-links">
-        <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
+        <a href="#work">Work</a>
+        <a href="#profile">Profile</a>
         <a href="#contact">Contact</a>
       </div>
+      <a class="nav-resume" href="resume.pdf" target="_blank" rel="noopener">
+        Resume <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+      </a>
     </nav>
   </header>
 
-  <main>
+  <main id="main">
     <section class="hero" id="home">
-      <div class="container hero-grid">
-        <div class="hero-copy">
-          <p class="eyebrow">Software engineer • Founder • AI product builder</p>
-          <h1>Shashank Pabitwar</h1>
-          <p class="lead">
-            Computer Science student at Arizona State University building full-stack, AI,
-            data-driven, and realtime multiplayer products. Founder of PrepInterview AI and PixelPlanes.
-          </p>
-          <div class="cta-row">
-            <a class="btn primary" href="https://prepinterviewai.com" target="_blank" rel="noopener">
-              <i class="fa-solid fa-arrow-up-right-from-square"></i>
-              PrepInterview AI
+      <div class="hero-light" aria-hidden="true"></div>
+      <img class="hero-texture" src="img/hero-bg.jpg" alt="" aria-hidden="true" />
+      <img class="hero-portrait" src="img/shashank-profile-2026.png?v=20260714" alt="Portrait of Shashank Pabitwar" />
+      <div class="hero-wash" aria-hidden="true"></div>
+
+      <div class="shell hero-inner">
+        <div class="hero-copy reveal is-visible">
+          <p class="hero-kicker"><span></span> Flemington, New Jersey</p>
+          <h1>Shashank<br />Pabitwar</h1>
+          <p class="hero-statement">Full-stack systems, AI products, and multiplayer worlds built from idea to production.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">
+              Explore the work <i class="fa-solid fa-arrow-down" aria-hidden="true"></i>
             </a>
-            <a class="btn" href="https://pixelplanes.app" target="_blank" rel="noopener">
-              <i class="fa-solid fa-gamepad"></i>
-              Play PixelPlanes
-            </a>
-            <a class="btn" href="resume.pdf" target="_blank" rel="noopener">
-              <i class="fa-solid fa-file-lines"></i>
-              Resume
-            </a>
-            <a class="btn quiet" href="https://github.com/Shashankpabitwar123" target="_blank" rel="noopener">
-              <i class="fa-brands fa-github"></i>
-              GitHub
-            </a>
-            <a class="btn quiet" href="https://www.linkedin.com/in/shashank-sainath-pabitwar-4332aa327" target="_blank" rel="noopener">
-              <i class="fa-brands fa-linkedin"></i>
-              LinkedIn
+            <a class="button button-ghost" href="mailto:spabitwa@asu.edu">
+              Start a conversation <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
             </a>
           </div>
         </div>
-        <div class="profile-panel" aria-label="Profile summary">
-          <img src="img/shashank-profile-2026.png?v=20260619" alt="Shashank Pabitwar" />
-          <div>
-            <h2>Open to SWE, full-stack, frontend, and AI roles</h2>
-            <p>React, Node.js, FastAPI, WebSockets, WebRTC, AI products, and product-focused engineering.</p>
+
+        <div class="hero-proof reveal is-visible" aria-label="Profile highlights">
+          <div><strong>3.89</strong><span>GPA · Summa Cum Laude</span></div>
+          <div><strong>02</strong><span>Founder products shipped</span></div>
+          <div><strong>06</strong><span>Player realtime rooms</span></div>
+        </div>
+      </div>
+
+      <a class="scroll-cue" href="#work" aria-label="Scroll to selected work">
+        <span>Selected work</span><i class="fa-solid fa-arrow-down" aria-hidden="true"></i>
+      </a>
+    </section>
+
+    <div class="stack-rail" aria-label="Technology stack">
+      <div class="stack-track">
+        <span>React</span><i></i><span>Node.js</span><i></i><span>FastAPI</span><i></i><span>PostgreSQL</span><i></i><span>WebSockets</span><i></i><span>WebRTC</span><i></i><span>OpenAI APIs</span><i></i><span>Product engineering</span><i></i>
+        <span aria-hidden="true">React</span><i aria-hidden="true"></i><span aria-hidden="true">Node.js</span><i aria-hidden="true"></i><span aria-hidden="true">FastAPI</span><i aria-hidden="true"></i><span aria-hidden="true">PostgreSQL</span><i aria-hidden="true"></i><span aria-hidden="true">WebSockets</span><i aria-hidden="true"></i><span aria-hidden="true">WebRTC</span><i aria-hidden="true"></i><span aria-hidden="true">OpenAI APIs</span><i aria-hidden="true"></i><span aria-hidden="true">Product engineering</span><i aria-hidden="true"></i>
+      </div>
+    </div>
+
+    <section class="work-intro section" id="work">
+      <div class="shell section-title reveal">
+        <p class="index">01 / Selected work</p>
+        <h2>Products with a pulse.</h2>
+        <p>Complex systems made clear, responsive, and useful.</p>
+      </div>
+    </section>
+
+    <article class="case-study case-prep">
+      <div class="shell case-grid">
+        <div class="case-copy reveal">
+          <p class="case-number">01 · Founder product</p>
+          <h3>PrepInterview AI</h3>
+          <p class="case-lead">A complete interview preparation workspace that turns a job description into a focused plan, realistic practice, and measurable progress.</p>
+          <dl class="case-facts">
+            <div><dt>Role</dt><dd>Founder · Full-stack developer</dd></div>
+            <div><dt>System</dt><dd>React, FastAPI, PostgreSQL, OpenAI</dd></div>
+            <div><dt>Scope</dt><dd>Product strategy through deployment</dd></div>
+          </dl>
+          <div class="link-row">
+            <a href="https://prepinterviewai.com" target="_blank" rel="noopener">Visit product <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+            <a href="https://github.com/Shashankpabitwar123/interviewPrep_AI" target="_blank" rel="noopener">Source <i class="fa-brands fa-github" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <a class="product-frame tilt-frame reveal" href="https://prepinterviewai.com" target="_blank" rel="noopener" aria-label="Open PrepInterview AI">
+          <img src="img/prepinterview-preview.png" alt="PrepInterview AI dashboard showing job preparation planning tools" />
+          <span class="frame-label">Live product · prepinterviewai.com</span>
+        </a>
+      </div>
+    </article>
+
+    <article class="case-study case-pixel">
+      <div class="pixel-backdrop" aria-hidden="true">
+        <img src="img/pixelplanes-preview.png" alt="" />
+      </div>
+      <div class="shell pixel-content">
+        <div class="pixel-heading reveal">
+          <p class="case-number">02 · Realtime multiplayer</p>
+          <h3>PixelPlanes</h3>
+        </div>
+        <div class="pixel-bottom reveal">
+          <p>A browser dogfight game with custom flight physics, synchronized worlds, direct voice chat, AI opponents, and six-player rooms.</p>
+          <div class="pixel-actions">
+            <a class="button button-light" href="https://pixelplanes.app" target="_blank" rel="noopener"><i class="fa-solid fa-play" aria-hidden="true"></i> Play game</a>
+            <a class="button button-outline-light" href="https://github.com/Shashankpabitwar123/bit-planes" target="_blank" rel="noopener"><i class="fa-brands fa-github" aria-hidden="true"></i> Source</a>
           </div>
         </div>
       </div>
-    </section>
+    </article>
 
-    <section class="section" id="projects">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">Selected work</p>
-          <h2>Resume projects</h2>
+    <section class="project-index section" aria-labelledby="more-work-title">
+      <div class="shell">
+        <div class="section-title compact reveal">
+          <p class="index">03 / More builds</p>
+          <h2 id="more-work-title">Built across domains.</h2>
         </div>
-        <div class="project-grid">
-          <article class="project-card featured">
-            <div>
-              <p class="project-type">Founder project</p>
-              <h3>PrepInterview AI</h3>
-              <p>
-                AI-powered interview preparation platform with role-aware practice, answer feedback,
-                and recruiter-ready preparation workflows.
-              </p>
-            </div>
-            <div class="card-actions">
-              <a href="https://prepinterviewai.com" target="_blank" rel="noopener">Live site</a>
-              <a href="https://github.com/Shashankpabitwar123/interviewPrep_AI" target="_blank" rel="noopener">GitHub</a>
-            </div>
-          </article>
-
-          <article class="project-card featured">
-            <p class="project-type">Founder project · Realtime multiplayer</p>
-            <h3>PixelPlanes</h3>
-            <p>
-              Browser multiplayer dogfight game with custom 2D flight physics, room codes for up to six players,
-              realtime multiplayer sync, direct WebRTC voice chat, shared weather and world state, fuel stations,
-              weapons, bots, and a visual in-game training guide.
-            </p>
-            <div class="project-stack" aria-label="PixelPlanes technologies">
-              <span>React</span><span>Vite</span><span>Node.js</span><span>WebSockets</span><span>WebRTC</span>
-            </div>
-            <div class="card-actions">
-              <a href="https://pixelplanes.app" target="_blank" rel="noopener">Play game</a>
-              <a href="https://github.com/Shashankpabitwar123/bit-planes" target="_blank" rel="noopener">GitHub</a>
-            </div>
-          </article>
-
-          <article class="project-card">
-            <p class="project-type">Full-stack dashboard</p>
-            <h3>PropertyLens</h3>
-            <p>
-              Real-estate intelligence dashboard for listing search, risk scoring, map overlays,
-              saved alerts, comparison workflows, and report exports.
-            </p>
-            <div class="card-actions">
-              <a href="https://github.com/Shashankpabitwar123/PropertyLens" target="_blank" rel="noopener">GitHub</a>
-            </div>
-          </article>
-
-          <article class="project-card">
-            <p class="project-type">Marketplace prototype</p>
-            <h3>DormDash</h3>
-            <p>
-              Student relocation marketplace with booking, wallet, driver and customer flows,
-              promo codes, saved places, and an in-app assistant.
-            </p>
-            <div class="card-actions">
-              <a href="https://shashankpabitwar123.github.io/drom-das-original/" target="_blank" rel="noopener">Live demo</a>
-              <a href="https://github.com/Shashankpabitwar123/drom-das-original" target="_blank" rel="noopener">GitHub</a>
-            </div>
-          </article>
-
-          <article class="project-card">
-            <p class="project-type">AI recipe app</p>
-            <h3>COOK IA</h3>
-            <p>
-              Recipe assistant with Spoonacular search, filters, guided cooking mode, voice narration,
-              timers, captions, and an Express API proxy.
-            </p>
-            <div class="card-actions">
-              <a href="https://github.com/Shashankpabitwar123/AI-COOK-APP" target="_blank" rel="noopener">GitHub</a>
-            </div>
-          </article>
-
-          <article class="project-card">
-            <p class="project-type">Browser game</p>
-            <h3>Arrow Survival</h3>
-            <p>
-              Canvas survival game with sprite animation, attacker AI, projectiles, diamonds,
-              difficulty settings, keyboard/touch controls, and Web Audio.
-            </p>
-            <div class="card-actions">
-              <a href="https://shashankpabitwar123.github.io/ARROW-SURVIVAL/" target="_blank" rel="noopener">Live demo</a>
-              <a href="https://github.com/Shashankpabitwar123/ARROW-SURVIVAL" target="_blank" rel="noopener">GitHub</a>
-            </div>
-          </article>
+        <div class="project-list">
+          <a class="project-row reveal" href="https://github.com/Shashankpabitwar123/PropertyLens" target="_blank" rel="noopener">
+            <span class="row-number">03</span><strong>PropertyLens</strong><span>Real-estate intelligence</span><em>React · Node · Maps</em><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+          </a>
+          <a class="project-row reveal" href="https://shashankpabitwar123.github.io/drom-das-original/" target="_blank" rel="noopener">
+            <span class="row-number">04</span><strong>DormDash</strong><span>Student relocation marketplace</span><em>Full-stack product</em><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+          </a>
+          <a class="project-row reveal" href="https://github.com/Shashankpabitwar123/AI-COOK-APP" target="_blank" rel="noopener">
+            <span class="row-number">05</span><strong>COOK IA</strong><span>AI cooking companion</span><em>Voice · APIs · Express</em><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+          </a>
+          <a class="project-row reveal" href="https://shashankpabitwar123.github.io/ARROW-SURVIVAL/" target="_blank" rel="noopener">
+            <span class="row-number">06</span><strong>Arrow Survival</strong><span>Canvas survival game</span><em>Game AI · Web Audio</em><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+          </a>
         </div>
       </div>
     </section>
 
-    <section class="section split" id="skills">
-      <div class="container split-grid">
-        <div>
-          <p class="eyebrow">Core stack</p>
-          <h2>Built for product teams</h2>
-          <p class="muted">
-            I focus on clean user flows, maintainable code, and shipping polished features across
-            frontend, backend, AI integrations, and data-informed interfaces.
-          </p>
+    <section class="profile section" id="profile">
+      <div class="shell profile-grid">
+        <div class="profile-intro reveal">
+          <p class="index">02 / Profile</p>
+          <h2>Engineering with product judgment.</h2>
+          <p>I like the full problem: understanding the user, defining the system, building the interface, connecting the backend, and getting it into production.</p>
+          <a class="text-link" href="resume.pdf" target="_blank" rel="noopener">Read the full resume <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
         </div>
-        <div class="skill-list" aria-label="Skills">
-          <span>React.js</span>
-          <span>Python</span>
-          <span>FastAPI</span>
-          <span>Node.js</span>
-          <span>JavaScript</span>
-          <span>WebSockets</span>
-          <span>WebRTC</span>
-          <span>Realtime systems</span>
-          <span>Full-stack development</span>
-          <span>Machine learning</span>
-          <span>Data science</span>
-          <span>GitHub</span>
-          <span>Product engineering</span>
+        <div class="profile-details reveal">
+          <div class="timeline-item">
+            <span>2026</span>
+            <div><strong>Arizona State University</strong><p>B.S. Computer Science · Data Science minor<br />3.89 GPA · Summa Cum Laude</p></div>
+          </div>
+          <div class="timeline-item">
+            <span>2026</span>
+            <div><strong>Frontend Developer Intern · OrgPath</strong><p>Role-based workforce analytics, API-driven workflows, and production frontend delivery.</p></div>
+          </div>
+          <div class="timeline-item">
+            <span>Now</span>
+            <div><strong>Founder · Product engineer</strong><p>Building PrepInterview AI and PixelPlanes across AI, realtime infrastructure, and product experience.</p></div>
+          </div>
         </div>
+      </div>
+
+      <div class="shell capability-grid reveal" aria-label="Engineering capabilities">
+        <div><span>01</span><strong>Product interfaces</strong><p>React, responsive systems, accessibility, and interaction design.</p></div>
+        <div><span>02</span><strong>Backend systems</strong><p>FastAPI, Node.js, PostgreSQL, authentication, and API architecture.</p></div>
+        <div><span>03</span><strong>AI applications</strong><p>OpenAI APIs, structured generation, retrieval, and workflow design.</p></div>
+        <div><span>04</span><strong>Realtime experiences</strong><p>WebSockets, WebRTC, multiplayer synchronization, and latency tuning.</p></div>
       </div>
     </section>
 
-    <section class="section" id="contact">
-      <div class="container contact-card">
-        <div>
-          <p class="eyebrow">Contact</p>
-          <h2>Let us build something useful.</h2>
-          <p class="muted">Open to new grad software engineering, frontend, full-stack, AI, and machine learning roles.</p>
-        </div>
-        <div class="cta-row">
-          <a class="btn primary" href="mailto:spabitwa@asu.edu">
-            <i class="fa-solid fa-envelope"></i>
-            Email
-          </a>
-          <a class="btn quiet" href="resume.pdf" target="_blank" rel="noopener">
-            <i class="fa-solid fa-download"></i>
-            Resume
-          </a>
+    <section class="contact section" id="contact">
+      <div class="shell contact-inner reveal">
+        <p class="index">03 / Contact</p>
+        <h2>Have a difficult product problem?</h2>
+        <p>I'm open to new grad software engineering, frontend, full-stack, and product engineering roles.</p>
+        <a class="contact-email" href="mailto:spabitwa@asu.edu">spabitwa@asu.edu <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+        <div class="social-links">
+          <a href="https://github.com/Shashankpabitwar123" target="_blank" rel="noopener"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a>
+          <a href="https://www.linkedin.com/in/shashank-sainath-pabitwar-4332aa327" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
+          <a href="resume.pdf" target="_blank" rel="noopener"><i class="fa-solid fa-file-lines" aria-hidden="true"></i> Resume</a>
         </div>
       </div>
     </section>
   </main>
 
   <footer>
-    <div class="container footer-inner">
+    <div class="shell footer-inner">
       <span>© <span id="year"></span> Shashank Pabitwar</span>
-      <span>Flemington, New Jersey, United States</span>
+      <span>Designed and engineered in New Jersey</span>
+      <a href="#home">Back to top <i class="fa-solid fa-arrow-up" aria-hidden="true"></i></a>
     </div>
   </footer>
 
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>
