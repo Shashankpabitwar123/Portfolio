@@ -277,6 +277,44 @@ h3 {
   background: rgba(255, 255, 255, 0.12);
 }
 
+.project-card.pixelplanes-card {
+  border-color: #305f7f;
+  color: #f5fbff;
+  background:
+    linear-gradient(145deg, rgba(73, 184, 221, 0.2), transparent 52%),
+    #17354a;
+}
+
+.project-card.pixelplanes-card p {
+  color: rgba(245, 251, 255, 0.84);
+}
+
+.project-card.pixelplanes-card .project-type {
+  color: #83e8ff !important;
+}
+
+.project-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.project-stack span {
+  padding: 5px 8px;
+  border: 1px solid rgba(182, 238, 255, 0.38);
+  border-radius: 6px;
+  color: #d3f6ff;
+  background: rgba(10, 28, 42, 0.36);
+  font-size: 0.76rem;
+  font-weight: 800;
+}
+
+.project-card.pixelplanes-card .card-actions a {
+  color: #effcff;
+  border-color: rgba(182, 238, 255, 0.45);
+  background: rgba(255, 255, 255, 0.1);
+}
+
 .split {
   background: var(--surface);
   border-top: 1px solid var(--line);
