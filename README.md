@@ -1,25 +1,34 @@
-# Shashank Pabitwar Portfolio
+# Shashank Pabitwar — Portfolio
 
-Single-page portfolio and recruiter link hub for Shashank Pabitwar.
+Analytics-first personal portfolio for Shashank Pabitwar, combining verified data-analysis case studies with production software work.
 
-## Highlights
+## Live site
 
-- Resume, GitHub, LinkedIn, and PrepInterview AI links in one place
-- Selected resume projects with live demo and repository links
-- Responsive static site built with HTML and CSS
-- Hosted with GitHub Pages
+[shashankpabitwar123.github.io/Portfolio](https://shashankpabitwar123.github.io/Portfolio/)
 
-## Featured Projects
+## Featured analytics
 
-- PrepInterview AI
-- PropertyLens
-- DormDash
-- COOK IA
-- Arrow Survival
+- CFPB Complaint Operations Analytics — Tableau, Snowflake, dbt, SQL, Python
+- NYC Taxi Operations — Power BI, Power Query, DAX, star-schema modeling
+- U.S. Airline Operations & Delay Analytics — Excel, Power Query, SQL, Python, statistics
+- PrepInterview AI Product Analytics — Tableau, SQL, Python, synthetic demonstration data
 
-## Local Preview
+## Featured software
 
-Open `index.html` directly in a browser, or run a lightweight local server:
+- [PrepInterview AI](https://prepinterviewai.com)
+- [PixelPlanes](https://pixelplanes.app)
+- PropertyLens, DormDash, COOK IA, and Arrow Survival
+
+## Site features
+
+- Recruiter-focused analytics/software work filter
+- Role-specific data analyst and software developer résumé downloads
+- Responsive editorial layout with verified project metrics and limitations
+- Accessible semantic HTML, keyboard focus states, reduced-motion support, and lazy-loaded project media
+- SEO/Open Graph metadata, canonical URL, sitemap, and robots file
+- Static HTML, CSS, and JavaScript hosted through GitHub Pages
+
+## Local preview
 
 ```bash
 python3 -m http.server 8080
