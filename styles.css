@@ -416,9 +416,16 @@ button:focus-visible {
   transition: transform .45s var(--ease);
 }
 .project-media:hover img { transform: scale(1.012); }
-.project-airline .project-media { aspect-ratio: auto; }
-.project-airline .project-media img { height: auto; }
-.project-airline .project-media:hover img { transform: none; }
+.project-airline .project-media,
+.project-taxi .project-media {
+  width: 100%;
+  aspect-ratio: auto;
+  background: transparent;
+}
+.project-airline .project-media img,
+.project-taxi .project-media img { width: 100%; height: auto; }
+.project-airline .project-media:hover img,
+.project-taxi .project-media:hover img { transform: none; }
 .prep-gallery,
 .airline-gallery { display: grid; gap: 46px; }
 .prep-panel,
