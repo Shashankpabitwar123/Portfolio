@@ -416,9 +416,15 @@ button:focus-visible {
   transition: transform .45s var(--ease);
 }
 .project-media:hover img { transform: scale(1.012); }
-.prep-gallery { display: grid; gap: 46px; }
-.prep-panel { margin: 0; }
-.prep-panel figcaption {
+.project-airline .project-media { aspect-ratio: auto; }
+.project-airline .project-media img { height: auto; }
+.project-airline .project-media:hover img { transform: none; }
+.prep-gallery,
+.airline-gallery { display: grid; gap: 46px; }
+.prep-panel,
+.airline-panel { margin: 0; }
+.prep-panel figcaption,
+.airline-panel figcaption {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
@@ -426,9 +432,12 @@ button:focus-visible {
   padding-top: 14px;
   font-size: .88rem;
 }
-.prep-panel figcaption span { font-weight: 700; }
-.prep-panel figcaption a { color: var(--blue); text-decoration: none; border-bottom: 1px solid currentColor; }
-.prep-panel figcaption a:hover { color: var(--alert); }
+.prep-panel figcaption span,
+.airline-panel figcaption span { font-weight: 700; }
+.prep-panel figcaption a,
+.airline-panel figcaption a { color: var(--blue); text-decoration: none; border-bottom: 1px solid currentColor; }
+.prep-panel figcaption a:hover,
+.airline-panel figcaption a:hover { color: var(--alert); }
 
 .more-work { padding-top: 92px; }
 .section-heading.compact { grid-template-columns: 190px 1fr; padding-bottom: 30px; }
@@ -550,7 +559,8 @@ footer { background: var(--soft); border-top: 1px solid var(--line-strong); }
   .experience-row > a { grid-column: 1; }
   .project { padding: 68px 0; }
   .project-grid { grid-template-columns: 1fr; gap: 38px; }
-  .prep-gallery { gap: 34px; }
+  .prep-gallery,
+  .airline-gallery { gap: 34px; }
   .credentials-section { padding: 62px 0; }
   .contact-grid { grid-template-columns: 1fr; gap: 42px; }
 }
@@ -567,7 +577,8 @@ footer { background: var(--soft); border-top: 1px solid var(--line-strong); }
   .credential-list a,
   .credential-list a:nth-child(n) { min-height: 74px; border-right: 0; }
   .project-media { box-shadow: 7px 7px 0 var(--soft); }
-  .prep-panel figcaption { align-items: flex-start; flex-direction: column; gap: 5px; }
+  .prep-panel figcaption,
+  .airline-panel figcaption { align-items: flex-start; flex-direction: column; gap: 5px; }
   .more-projects { grid-template-columns: 1fr; }
   .more-projects a,
   .more-projects a:nth-child(even) { min-height: 110px; border-right: 0; border-bottom: 1px solid var(--line); }

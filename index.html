@@ -202,28 +202,40 @@
         </div>
       </article>
 
-      <article class="project reveal" id="airline">
+      <article class="project project-airline reveal" id="airline">
         <div class="project-grid">
           <div class="project-copy">
             <p class="project-number">04</p>
-            <h3>U.S. Airline Operations &amp; Delay Analytics</h3>
-            <p class="project-lede">An analysis of official BTS files that compares delays across time, airports, routes, and carriers.</p>
+            <h3>When America Runs Late</h3>
+            <p class="project-lede">Do flights arrive late more often in the evening? I used Python and SQL to analyze official BTS flight records, then built Excel reports and an interactive Tableau dashboard.</p>
             <ul class="evidence-list">
-              <li><strong>36</strong> official BTS files</li>
-              <li><strong>20.93 million</strong> scheduled flights</li>
-              <li><strong>77.5%</strong> on-time rate across 2023–2025</li>
+              <li><strong>24.42 million</strong> flights from Jan 2023–Jun 2026</li>
+              <li><strong>26</strong> data validation checks</li>
+              <li><strong>14.2%</strong> morning vs. <strong>29.8%</strong> evening late arrivals in Jan–Jun 2026</li>
             </ul>
             <ul class="tool-list" aria-label="Airline project tools">
-              <li>Excel</li><li>Power Query</li><li>SQL</li><li>DuckDB</li><li>Python</li><li>Statistics</li>
+              <li>Tableau</li><li>Excel</li><li>SQL</li><li>Python</li><li>DuckDB</li><li>Power Query</li>
             </ul>
             <div class="project-links">
-              <a href="https://github.com/Shashankpabitwar123/us-airline-operations-delay-analytics/blob/main/excel/US_Airline_Operations_Delay_Root_Cause_Analytics.xlsx" target="_blank" rel="noopener">Open workbook</a>
+              <a href="https://public.tableau.com/app/profile/shashank.pabitwar/viz/WHENAMERICARUNSLATE/WhenAmericaRunsLate" target="_blank" rel="noopener">View Tableau dashboard</a>
               <a href="https://github.com/Shashankpabitwar123/us-airline-operations-delay-analytics" target="_blank" rel="noopener">View code</a>
+              <a href="https://github.com/Shashankpabitwar123/us-airline-operations-delay-analytics/blob/main/excel/Flightpath.xlsx" target="_blank" rel="noopener">Open Excel workbook</a>
             </div>
           </div>
-          <a class="project-media" href="https://github.com/Shashankpabitwar123/us-airline-operations-delay-analytics" target="_blank" rel="noopener" aria-label="Open the U.S. airline analytics project">
-            <img src="img/us-airline-excel.png" alt="U.S. Airline Operations and Delay Analytics Excel workbook" width="2878" height="1636" loading="lazy" decoding="async" />
-          </a>
+          <div class="airline-gallery" aria-label="When America Runs Late Tableau and Excel previews">
+            <figure class="airline-panel">
+              <a class="project-media" href="https://public.tableau.com/app/profile/shashank.pabitwar/viz/WHENAMERICARUNSLATE/WhenAmericaRunsLate" target="_blank" rel="noopener" aria-label="Open the When America Runs Late Tableau dashboard">
+                <img src="img/when-america-runs-late.png" alt="When America Runs Late Tableau dashboard with departure-time comparisons, reported delay reasons, filters and a U.S. flight-route map" width="1679" height="1106" loading="lazy" decoding="async" />
+              </a>
+              <figcaption><span>Interactive Tableau dashboard</span><a href="https://public.tableau.com/app/profile/shashank.pabitwar/viz/WHENAMERICARUNSLATE/WhenAmericaRunsLate" target="_blank" rel="noopener">Open dashboard</a></figcaption>
+            </figure>
+            <figure class="airline-panel">
+              <a class="project-media" href="https://github.com/Shashankpabitwar123/us-airline-operations-delay-analytics/blob/main/excel/Flightpath.xlsx" target="_blank" rel="noopener" aria-label="Open the Flightpath Excel workbook">
+                <img src="img/flightpath-excel.png" alt="Flightpath Excel workbook showing January–June 2026 flight totals, arrival rates and monthly delay trends" width="1353" height="1417" loading="lazy" decoding="async" />
+              </a>
+              <figcaption><span>Excel analysis workbook</span><a href="https://github.com/Shashankpabitwar123/us-airline-operations-delay-analytics/blob/main/excel/Flightpath.xlsx" target="_blank" rel="noopener">Open workbook</a></figcaption>
+            </figure>
+          </div>
         </div>
       </article>
 
