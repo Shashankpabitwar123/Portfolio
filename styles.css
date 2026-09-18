@@ -421,8 +421,10 @@ button:focus-visible {
 .prep-gallery,
 .airline-gallery { display: grid; gap: 46px; }
 .prep-panel,
+.project-panel,
 .airline-panel { margin: 0; }
 .prep-panel figcaption,
+.project-panel figcaption,
 .airline-panel figcaption {
   display: flex;
   align-items: baseline;
@@ -432,10 +434,13 @@ button:focus-visible {
   font-size: .88rem;
 }
 .prep-panel figcaption span,
+.project-panel figcaption span,
 .airline-panel figcaption span { font-weight: 700; }
 .prep-panel figcaption a,
+.project-panel figcaption a,
 .airline-panel figcaption a { color: var(--blue); text-decoration: none; border-bottom: 1px solid currentColor; }
 .prep-panel figcaption a:hover,
+.project-panel figcaption a:hover,
 .airline-panel figcaption a:hover { color: var(--alert); }
 
 .more-work { padding-top: 92px; }
@@ -577,6 +582,7 @@ footer { background: var(--soft); border-top: 1px solid var(--line-strong); }
   .credential-list a:nth-child(n) { min-height: 74px; border-right: 0; }
   .project-media { box-shadow: 7px 7px 0 var(--soft); }
   .prep-panel figcaption,
+  .project-panel figcaption,
   .airline-panel figcaption { align-items: flex-start; flex-direction: column; gap: 5px; }
   .more-projects { grid-template-columns: 1fr; }
   .more-projects a,
