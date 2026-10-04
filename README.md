@@ -8,6 +8,8 @@ Simple, data-focused personal portfolio for Shashank Pabitwar. The page presents
 
 ## Main projects
 
+- [Retail Planner](https://retail-planner-demo.onrender.com/) — CSV quality, evaluated forecasts, inventory scenarios, and evidence-linked AI
+
 - [PrepInterview AI](https://prepinterviewai.com/) and its [Tableau product analytics story](https://public.tableau.com/app/profile/shashank.pabitwar/viz/PrepInterview_AI_Product_Analytics_Aug_25_Revision/PrepInterviewAIScrollExperience)
 - [PixelPlanes](https://pixelplanes.app/)
 - CFPB Complaint Operations Analytics — Tableau, Snowflake, dbt, SQL, Python
