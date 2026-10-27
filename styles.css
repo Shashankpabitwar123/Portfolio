@@ -596,3 +596,5 @@ footer { background: var(--soft); border-top: 1px solid var(--line-strong); }
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
   .js .reveal { opacity: 1; transform: none; }
 }
+
+#indias-stolen-treasures .project-media img { object-position: center top; }
