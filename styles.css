@@ -597,4 +597,5 @@ footer { background: var(--soft); border-top: 1px solid var(--line-strong); }
   .js .reveal { opacity: 1; transform: none; }
 }
 
+#citi-bike .project-media img,
 #indias-stolen-treasures .project-media img { object-position: center top; }
