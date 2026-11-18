@@ -599,3 +599,19 @@ footer { background: var(--soft); border-top: 1px solid var(--line-strong); }
 
 #citi-bike .project-media img,
 #indias-stolen-treasures .project-media img { object-position: center top; }
+
+#hormuz-enlarge { aspect-ratio: 1727 / 1034; cursor: zoom-in; }
+#hormuz-preview {
+  width: min(94vw, 1727px);
+  max-width: 94vw;
+  max-height: 92vh;
+  margin: auto;
+  padding: 0;
+  border: 1px solid var(--line-strong);
+  background: var(--surface);
+}
+#hormuz-preview::backdrop { background: rgb(0 0 0 / .7); }
+#hormuz-preview form { display: flex; justify-content: flex-end; padding: .5rem; }
+#hormuz-preview button { font: inherit; cursor: pointer; padding: .35rem .75rem; }
+#hormuz-preview .preview-scroll { overflow: auto; max-height: calc(92vh - 4rem); }
+#hormuz-preview img { display: block; width: 1727px; max-width: none; height: auto; }

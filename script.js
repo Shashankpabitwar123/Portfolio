@@ -45,3 +45,11 @@ if (!reducedMotion && 'IntersectionObserver' in window) {
 } else {
   document.querySelectorAll('.reveal').forEach((element) => element.classList.add('is-visible'));
 }
+
+const hormuzPreview = document.getElementById('hormuz-preview');
+document.getElementById('hormuz-enlarge').addEventListener('click', (event) => {
+  if (typeof hormuzPreview.showModal === 'function' && !event.metaKey && !event.ctrlKey && !event.shiftKey && !event.altKey) {
+    event.preventDefault();
+    hormuzPreview.showModal();
+  }
+});
